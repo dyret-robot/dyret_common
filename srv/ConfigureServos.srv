@@ -1,0 +1,12 @@
+# Service to configure one or more servos
+dyret_common/ServoConfig[] configurations
+---
+uint8 status
+# Human readable string in case of error status
+string message
+
+uint8 STATUS_NOERROR   = 0
+# There was a problem with the parameters:
+uint8 STATUS_PARAMETER = 1
+# The servo is in the wrong state:
+uint8 STATUS_STATE     = 2
