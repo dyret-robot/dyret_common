@@ -27,4 +27,15 @@ generate_messages(
 
 catkin_package(
 	CATKIN_DEPENDS message_runtime
+	INCLUDE_DIRS include
+	)
+
+include_directories(
+	${catkin_INCLUDE_DIRS}
+	include
+	)
+
+install(DIRECTORY include/${PROJECT_NAME}/
+	DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+	FILES_MATCHING PATTERN "*.h"
 	)
