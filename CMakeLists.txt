@@ -4,6 +4,7 @@ project(dyret_common)
 find_package(catkin REQUIRED COMPONENTS
 	message_generation
 	std_msgs
+  geometry_msgs
 	)
 
 add_message_files(
@@ -11,18 +12,29 @@ add_message_files(
 	FILES
 	Pose.msg
 	ServoConfig.msg
+	ServoConfigArray.msg
 	ServoState.msg
 	ServoStateArray.msg
+  InverseKinematicsSolution.msg
+  GaitControllerStatus.msg
+  ActionMessage.msg
+  Trajectory.msg
+  DistAng.msg
+  Configuration.msg
 	)
 
 add_service_files(
 	FILES
 	ConfigureServos.srv
-	)
+  CalculateInverseKinematics.srv
+  GetGaitControllerStatus.srv
+  GetGaitEvaluation.srv
+)
 
 generate_messages(
 	DEPENDENCIES
 	std_msgs
+  geometry_msgs
 	)
 
 catkin_package(
