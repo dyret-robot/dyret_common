@@ -1,5 +1,5 @@
 # Service to configure one or more servos
-dyret_common/ServoConfig[] configurations
+dyret_common/ServoConfigs configurations
 ---
 uint8 status
 # Human readable string in case of error status

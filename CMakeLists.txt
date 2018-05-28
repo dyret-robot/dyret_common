@@ -11,10 +11,9 @@ add_message_files(
 	DIRECTORY msg
 	FILES
 	Pose.msg
-	ServoConfig.msg
-	ServoConfigArray.msg
 	ServoState.msg
 	ServoStateArray.msg
+  ServoConfigs.msg
   InverseKinematicsSolution.msg
   GaitControllerStatus.msg
   ActionMessage.msg
@@ -24,8 +23,8 @@ add_message_files(
 	)
 
 add_service_files(
-	FILES
-	ConfigureServos.srv
+  FILES
+  ConfigureServos.srv
   CalculateInverseKinematics.srv
   GetGaitControllerStatus.srv
   GetGaitEvaluation.srv
