@@ -8,18 +8,7 @@
 # Header for general bookkeeping
 std_msgs/Header header
 
-# Configuration type
-uint8 type
+dyret_common/RevoluteConfig revolute
+dyret_common/PrismaticConfig prismatic
 
-# Servo IDs
-uint8[] ids
-# Configuration parameters
-float64[] parameters
 
-# Type enumeration
-uint8 TYPE_DISABLE_LOG    = 0
-uint8 TYPE_ENABLE_LOG     = 1
-uint8 TYPE_SET_SPEED      = 2
-uint8 TYPE_SET_PID        = 3
-uint8 TYPE_ENABLE_TORQUE  = 4
-uint8 TYPE_DISABLE_TORQUE = 5

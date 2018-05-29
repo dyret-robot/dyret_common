@@ -11,22 +11,23 @@ add_message_files(
   DIRECTORY msg
   FILES
   Pose.msg
-  ServoConfigs.msg
-  ServoState.msg
-  ServoStateArray.msg
-  InverseKinematicsSolution.msg
+  Configuration.msg
+  RevoluteConfig.msg
+  PrismaticConfig.msg
+  RevoluteState.msg
+  PrismaticState.msg
+  State.msg
   GaitControllerStatus.msg
   ActionMessage.msg
   Trajectory.msg
   DistAng.msg
-  ActuatorCommand.msg
-  ActuatorStates.msg
+  ActuatorBoardCommand.msg
+  ActuatorBoardState.msg
 )
 
 add_service_files(
   FILES
-  ConfigureServos.srv
-  CalculateInverseKinematics.srv
+  Configure.srv
   GetGaitControllerStatus.srv
   GetGaitEvaluation.srv
 )

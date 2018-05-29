@@ -2,7 +2,8 @@
 
 # Header for general bookkeeping
 std_msgs/Header header
+
 # State of revolute joints
-dyret_common/ServoState[12] revolute
-# State of extension joints
-dyret_common/ServoState[8] prismatic
+dyret_common/RevoluteState[12] revolute
+# State of prismatic joints
+dyret_common/PrismaticState[8] prismatic
