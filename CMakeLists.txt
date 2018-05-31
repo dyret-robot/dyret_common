@@ -17,19 +17,11 @@ add_message_files(
   RevoluteState.msg
   PrismaticState.msg
   State.msg
-  GaitControllerStatus.msg
-  ActionMessage.msg
-  Trajectory.msg
-  DistAng.msg
-  ActuatorBoardCommand.msg
-  ActuatorBoardState.msg
 )
 
 add_service_files(
   FILES
   Configure.srv
-  GetGaitControllerStatus.srv
-  GetGaitEvaluation.srv
 )
 
 generate_messages(
