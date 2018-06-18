@@ -1,5 +1,6 @@
 # `dyret_common`
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 This repository contains message, service and common header files for `DyRET`.
 
 This repository is intended to be the shared package for `DyRET` in both
