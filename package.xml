@@ -1,12 +1,10 @@
 <?xml version="1.0"?>
 <package format="2">
 	<name>dyret_common</name>
-	<version>0.4.0</version>
-	<description>Common code for 'Dyret'</description>
-
+	<version>0.1.0</version>
+	<description>Common code for 'DyRET'</description>
 	<maintainer email="tonnesfn@ifi.uio.no">tonnesfn</maintainer>
-
-	<license>MIT</license>
+	<license>GPL-3.0-or-later</license>
 
 	<buildtool_depend>catkin</buildtool_depend>
 	<build_depend>message_generation</build_depend>
