@@ -7,3 +7,4 @@ float32 position
 
 # Controller state
 float32 set_point
+float32 error
