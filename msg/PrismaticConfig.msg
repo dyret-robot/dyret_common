@@ -14,4 +14,4 @@ float64[] parameters
 # Configuration type
 uint8 type
 
-uint8 TYPE_SET_P = 1
+uint8 TYPE_SET_PID = 1
