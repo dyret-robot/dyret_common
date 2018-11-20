@@ -13,6 +13,7 @@ float32 temperature
 
 # Controller state
 float32 set_point
+float32 error
 
 # Joint status:
 uint8 status

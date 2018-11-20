@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
 	<name>dyret_common</name>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 	<description>Common code for 'DyRET'</description>
 	<maintainer email="tonnesfn@ifi.uio.no">tonnesfn</maintainer>
 	<license>GPL-3.0-or-later</license>
