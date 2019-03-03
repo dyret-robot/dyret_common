@@ -18,3 +18,4 @@ uint8 TYPE_SET_SPEED      = 0
 uint8 TYPE_SET_PID        = 1
 uint8 TYPE_ENABLE_TORQUE  = 2
 uint8 TYPE_DISABLE_TORQUE = 3
+uint8 TYPE_RESTART        = 4
