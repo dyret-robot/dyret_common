@@ -4,6 +4,7 @@
 
 # Joint state
 float32 position
+uint16 raw
 uint8 pwm
 
 # Controller state
