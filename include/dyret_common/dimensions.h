@@ -7,7 +7,7 @@
   const double L23 = 255.0; // Minimum distance from second to third joint
 
   // Body constants
-  const double frameLength = 475.0; // Distance between servo centers in mm
-  const double frameWidth  = 259.0; // Distance between servo centers in mm
+  const double frameLength = 430.0; // Distance between servo centers in mm
+  const double frameWidth  = 230.0; // Distance between servo centers in mm
 
 #endif
